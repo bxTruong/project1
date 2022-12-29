@@ -35,7 +35,13 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods:{
+    onConsoleTesting(){
+      console.log('running console testing function...');
+    }
   }
+  
 }
 </script>
 
